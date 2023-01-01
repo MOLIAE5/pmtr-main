@@ -146,14 +146,14 @@ useEffect(() => {
   } 
 
   return (
-    <div className="min-h-screen w-full md:overflow-hidden overflow-auto flex flex-col items-center justify-center">
+    <div className="min-h-screen w-full md:overflow-y-hidden overflow-auto flex flex-col items-center justify-center">
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
       <img src="/bgmobile.png" className="md:hidden object-cover w-full h-full absolute"/>
       
 
-      <div className="relative flex flex-col items-center md:py-12 w-full h-screen">
+      <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/logo.png' className="w-[60px] h-[100px]"/>
+          <img src = '/logo.png' className="w-[150px] h-[200px]"/>
         </div>
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
       
