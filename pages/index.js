@@ -149,6 +149,7 @@ useEffect(() => {
     <div className="min-h-screen w-full md:overflow-hidden overflow-auto flex flex-col items-center justify-center">
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
       <img src="/bgmobile.png" className="md:hidden object-cover w-full h-full absolute"/>
+      <img src = '/logo.png' className="relative top-0 left-0 w-[60px] h-[60px]"/>
 
       <div className='relative flex flex-col items-center md:flex-row md:justify-between justify-between md:py-12 w-full h-screen'>
       
@@ -289,7 +290,7 @@ useEffect(() => {
 
 {/* social media icons paste correct links down beow */}
 <div className="flex w-full items-center justify-evenly mt-5 px-10">
-  <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://discrord.com'>
+  <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='https://discord.com/invite/nurws4nAgE'>
     <img src='discord.svg' className='h-8 w-8 m-1'/>
   </a>
   <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://www.facebook.com/moliae'>
