@@ -153,18 +153,19 @@ useEffect(() => {
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/logo.png' className="w-[150px] h-[200px]"/>
+          <img src = '/logo.png' className="w-[130px] h-[170px] mr-4"/>
         </div>
+
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
       
-      <div className='hidden md:flex w-full items-center justify-between'>
+        <div className='hidden md:flex w-full items-center justify-between'>
           <div className="mx-auto"> 
             <img src='gif1.gif' className="w-[125px] h-[125px] rounded-md border border-gray-100 shadow-lg shadow-black/60"/>
           </div>
           <div className="mx-auto">
             <img src='gif2.gif' className="w-[175px] h-[175px] rounded-md border border-gray-100 shadow-lg shadow-black/60"/>
           </div>
-      </div>
+        </div>
 
       <div className=" bg-black/75 filter rounded-md flex flex-col items-center
     bg-gray-800 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border-2 border-gray-100 backdrop-saturate-150 w-full shadow-lg shadow-black/60">
@@ -172,7 +173,7 @@ useEffect(() => {
           <div className="flex flex-col items-center w-full py-4 mt-6 md:mt-0 md:px-16 px-4">
           
           <div className='pb-4  flex flex-col items-center'>
-            <h1 className="font-Kanit uppercase font-bold text-4xl md:text-4xl text-brand-blue bg-clip-text mt-0 tracking-widest text-center">
+            <h1 className="font-Kanit uppercase font-bold text-4xl md:text-4xl text-brand-green bg-clip-text mt-0 tracking-widest text-center">
             Moliae
             </h1>
 
