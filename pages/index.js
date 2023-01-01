@@ -1,5 +1,6 @@
 import { useState, useEffect, } from "react";
 import { initOnboard } from "../ulits/onboard";
+import Head from 'next/head';
 import { config } from "../dapp.config";
 import {  getTotalMinted,
           getMaxSupply,
@@ -147,13 +148,20 @@ useEffect(() => {
 
   return (
     <div className="min-h-screen w-full md:overflow-y-hidden overflow-auto flex flex-col items-center justify-center">
+
+    <Head>
+        <title>PMTR NFTs - Minting Page</title>
+        <meta name="Description" content="PMTR NFTS-Minting page!" />
+        <link rel="icon" href="/icon.png" />
+    </Head>
+
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
       <img src="/bgmobile.png" className="md:hidden object-cover w-full h-full absolute"/>
       
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/logo.png' className="w-[130px] h-[170px] mr-12"/>
+          <img src = '/icon.png' className="w-[150px] h-[150px] mr-12"/>
         </div>
 
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
@@ -337,6 +345,11 @@ useEffect(() => {
           </div>
       </div>
       </div>
+
+      <div className="w-screen h-auto flex flex-col items-start">
+          <img src = '/logo.png' className="w-[130px] h-[170px] ml-12"/>
+        </div>
+
       </div>
 
     </div>
