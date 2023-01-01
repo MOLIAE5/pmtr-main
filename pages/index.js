@@ -185,8 +185,8 @@ useEffect(() => {
             Moliae
             </h1>
 
-            <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-4xl text-brand-02 bg-clip-text tracking-wider text-center mt-5">
-            {paused ? 'Will live soon..': isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' :'Will live soon..' }
+            <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-3xl text-brand-02 bg-clip-text tracking-wider text-center mt-5">
+            {paused ? 'Will be live soon..': isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' :'Will be live soon..' }
             </h1>
 
             <h3 className="text-sm text-gray-100 tracking-widest">
