@@ -151,11 +151,11 @@ useEffect(() => {
       <img src="/bgmobile.png" className="md:hidden object-cover w-full h-full absolute"/>
       
 
-      <div className="relative flex flex-col items-center">
+      <div className="relative flex flex-col items-center md:py-12 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-        <img src = '/logo.png' className="top-0 right-0 w-[60px] h-[100px]"/>
+          <img src = '/logo.png' className="w-[60px] h-[100px]"/>
         </div>
-      <div className='flex flex-col items-center md:flex-row md:justify-between justify-between md:py-12 w-full h-screen'>
+      <div className='flex flex-col items-center md:flex-row md:justify-between justify-between '>
       
       <div className='hidden md:flex w-full items-center justify-between'>
           <div className="mx-auto"> 
