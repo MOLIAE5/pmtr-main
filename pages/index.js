@@ -161,7 +161,7 @@ useEffect(() => {
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/icon.png' className="w-[150px] h-[150px] mr-12"/>
+          <img src = '/icon.png' className="w-[150px] h-[110px] mr-12"/>
         </div>
 
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
@@ -347,7 +347,7 @@ useEffect(() => {
       </div>
 
       <div className="w-screen h-auto flex flex-col items-start">
-          <img src = '/logo.png' className="w-[130px] h-[170px] ml-12"/>
+          <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
         </div>
 
       </div>
