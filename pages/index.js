@@ -155,7 +155,7 @@ useEffect(() => {
         <div className="w-screen h-auto flex flex-col items-end">
           <img src = '/logo.png' className="w-[60px] h-[100px]"/>
         </div>
-      <div className='flex flex-col items-center md:flex-row md:justify-between justify-between '>
+      <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
       
       <div className='hidden md:flex w-full items-center justify-between'>
           <div className="mx-auto"> 
