@@ -168,10 +168,10 @@ useEffect(() => {
           
           <div className='pb-4  flex flex-col items-center'>
             <h1 className="font-Kanit uppercase font-bold text-4xl md:text-4xl text-brand-blue bg-clip-text mt-0 tracking-widest text-center">
-            Molie
+            Moliae
             </h1>
 
-            <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-0 tracking-wider text-center mt-5">
+            <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-4xl text-brand-02 bg-clip-text tracking-wider text-center mt-5">
             {paused ? 'Will live soon..': isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' :'Will live soon..' }
             </h1>
 
@@ -292,7 +292,7 @@ useEffect(() => {
   <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://discrord.com'>
     <img src='discord.svg' className='h-8 w-8 m-1'/>
   </a>
-  <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://facebook.com'>
+  <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://www.facebook.com/moliae'>
     <img src='facebook.svg' className='h-8 w-8 m-1'/>
   </a>
   <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://twitter.com'>
