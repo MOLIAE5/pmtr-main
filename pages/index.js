@@ -153,7 +153,7 @@ useEffect(() => {
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/logo.png' className="w-[130px] h-[170px] mr-4"/>
+          <img src = '/logo.png' className="w-[130px] h-[170px] mr-16"/>
         </div>
 
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
