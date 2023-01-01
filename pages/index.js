@@ -149,9 +149,13 @@ useEffect(() => {
     <div className="min-h-screen w-full md:overflow-hidden overflow-auto flex flex-col items-center justify-center">
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
       <img src="/bgmobile.png" className="md:hidden object-cover w-full h-full absolute"/>
-      <img src = '/logo.png' className="relative top-0 left-0 w-[60px] h-[60px]"/>
+      
 
-      <div className='relative flex flex-col items-center md:flex-row md:justify-between justify-between md:py-12 w-full h-screen'>
+      <div className="relative flex flex-col items-center">
+        <div className="w-screen h-auto flex flex-col items-end">
+        <img src = '/logo.png' className="relative top-0 right-0 w-[60px] h-[100px]"/>
+        </div>
+      <div className='flex flex-col items-center md:flex-row md:justify-between justify-between md:py-12 w-full h-screen'>
       
       <div className='hidden md:flex w-full items-center justify-between'>
           <div className="mx-auto"> 
@@ -330,6 +334,7 @@ useEffect(() => {
           <div className="mx-auto">
             <img src='gif4.gif' className="w-[125px] h-[125px] rounded-md border border-gray-100 shadow-lg shadow-black/60"/>
           </div>
+      </div>
       </div>
       </div>
 
