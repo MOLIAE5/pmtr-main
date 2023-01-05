@@ -152,7 +152,7 @@ useEffect(() => {
     <Head>
         <title>PMTR NFTs - Minting Page</title>
         <meta name="Description" content="PMTR NFTS-Minting page!" />
-        <link rel="icon" href="/farvicon.png" />
+        <link rel="icon" href="/farvicon.png" className="w-[15px] h-[8px]" />
     </Head>
 
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
