@@ -152,7 +152,7 @@ useEffect(() => {
     <Head>
         <title>PMTR NFTs - Minting Page</title>
         <meta name="Description" content="PMTR NFTS-Minting page!" />
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/favicon.png" />
     </Head>
 
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
@@ -161,7 +161,7 @@ useEffect(() => {
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/icon.png' className="w-[150px] h-[110px] mr-12"/>
+          <img src = '/icon.png' className="w-[150px] h-[100px] mr-12"/>
         </div>
 
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
