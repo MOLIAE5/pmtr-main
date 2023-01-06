@@ -349,8 +349,8 @@ useEffect(() => {
       <div className="w-screen h-auto flex md:flex-row flex-col items-start md:items-center justify-between">
           <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
           <div className="flex flex-row justify-between items-end">
-          <img src = '/Nichel Anderson Signature 3 .png' className="w-[300px] h-[100px] ml-12 mb-4"/>
-          <img src = '/Nichel Anderson2 .png' className="w-[100px] h-[145px] mr-12"/>    
+          <h1 className="text-sm font-Kanit text-blue-400">Nichel MOLIAE</h1>
+          <img src = '/Nichel Anderson2 .png' className="w-[140px] h-[145px] mr-12"/>    
           </div>
         </div>
 
