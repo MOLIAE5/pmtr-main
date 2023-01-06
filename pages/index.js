@@ -351,7 +351,7 @@ useEffect(() => {
           <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[150px] h-auto ml-12 mb-4"/></a>
           
           {/* change the link down below to the pdf link */}
-          <a href="https://moliaeworld.com/the-story/"><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a>
+          <a href="https://www.moliaeworld.com/the-story/"><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a>
           
           <img src = '/NichelMOLIAEsignature.png' className="w-[150px] h-auto mr-12 mb-4"/>    
           
