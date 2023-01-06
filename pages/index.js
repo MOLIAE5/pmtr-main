@@ -350,7 +350,7 @@ useEffect(() => {
       <div className="w-screen h-auto flex md:flex-row flex-col items-start md:items-center justify-between">
           <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
           
-          <img src = '/NichelMOLIAEsignature.png' className="w-[100px] h-auto mr-12 mb-4"/>    
+          <img src = '/NichelMOLIAEsignature.png' className="w-[150px] h-auto mr-12 mb-4"/>    
           
         </div>
 
