@@ -350,7 +350,7 @@ useEffect(() => {
           <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
           <div className="flex flex-row justify-between items-center">
           <h1 className="text-[22px] font-Kanit text-blue-400">Nichel MOLIAE</h1>
-          <img src = '/Nichel Anderson2 .png' className="w-full h-auto mr-12"/>    
+          <img src = '/Nichel Anderson2 .png' className="w-[150px] h-auto mr-12"/>    
           </div>
         </div>
 
