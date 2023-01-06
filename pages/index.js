@@ -161,7 +161,7 @@ useEffect(() => {
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
         <div className="w-screen h-auto flex flex-col items-end">
-          <img src = '/icon.png' className="w-[150px] h-[100px] mr-12"/>
+          <a href="https://moliaeworld.com"><img src = '/icon.png' className="w-[150px] h-[100px] mr-12"/></a>
         </div>
 
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
@@ -349,8 +349,8 @@ useEffect(() => {
       <div className="w-screen h-auto flex md:flex-row flex-col items-start md:items-center justify-between">
           <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
           <div className="flex flex-row justify-between items-end">
-          <img src = '/Nichel Anderson Signature 2.png' className="w-[300px] h-[100px] ml-12 mb-4"/>
-          <img src = '/Nichel Anderson .png' className="w-[100px] h-[135px] mr-12"/>    
+          <img src = '/Nichel Anderson2 .png' className="w-[300px] h-[100px] ml-12 mb-4"/>
+          <img src = '/Nichel Anderson Signature 3 .png' className="w-[100px] h-[135px] mr-12"/>    
           </div>
         </div>
 
