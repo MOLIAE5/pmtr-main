@@ -348,7 +348,7 @@ useEffect(() => {
       </div>
 
       <div className="w-screen h-auto flex md:flex-row items-start md:items-center justify-between">
-          <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/></a>
+          <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[150px] h-auto ml-12 mb-4"/></a>
 
           <a href="https://moliaeworld.com/the-story/"><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a>
           
