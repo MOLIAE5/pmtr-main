@@ -302,7 +302,7 @@ useEffect(() => {
                     Connect wallet
                   </button> )}
 
-{/* social media icons paste correct links down beow */}
+{/* social media icons paste correct links down below */}
 <div className="flex w-full items-center justify-evenly mt-5 px-10">
   <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='https://discord.com/invite/nurws4nAgE'>
     <img src='discord.svg' className='h-8 w-8 m-1'/>
@@ -310,7 +310,7 @@ useEffect(() => {
   <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://www.facebook.com/moliae'>
     <img src='facebook.svg' className='h-8 w-8 m-1'/>
   </a>
-  <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='http://twitter.com'>
+  <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='https://twitter.com/MoliaeWorld'>
     <img src='twitter.svg' className='h-8 w-8 m-1'/>
   </a>
   <a className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12" href='https://etherscan.io/address/0x1f1F860A0A3bEC70107d31CFDcAEfF2E59631a27#readContract'>
@@ -348,7 +348,7 @@ useEffect(() => {
       </div>
 
       <div className="w-screen h-auto flex md:flex-row items-start md:items-center justify-between">
-          <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
+          <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/></a>
 
           <a href="https://moliaeworld.com/the-story/"><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a>
           
