@@ -349,7 +349,8 @@ useEffect(() => {
 
       <div className="w-screen h-auto flex md:flex-row items-start md:items-center justify-between">
           <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[150px] h-auto ml-12 mb-4"/></a>
-
+          
+          {/* change the link down below to the pdf link */}
           <a href="https://moliaeworld.com/the-story/"><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a>
           
           <img src = '/NichelMOLIAEsignature.png' className="w-[150px] h-auto mr-12 mb-4"/>    
@@ -362,10 +363,3 @@ useEffect(() => {
   )
 }
 
-
-//<div className='min-h-screen h-full w-full overflow-hidden flex flex-col items-center justify-center bg-brand-background'>
-
-//<div className="md:max-w-3xl w-full bg-black/75 filter  py-4 rounded-md px-2 md:px-10 flex flex-col items-center
-//bg-gray-800 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border-2 border-gray-100 backdrop-saturate-150">
-
-//conic-gradient(at left bottom, rgb(153, 27, 27), rgb(202, 138, 4), rgb(234, 179, 8))
