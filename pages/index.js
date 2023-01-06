@@ -147,7 +147,7 @@ useEffect(() => {
   } 
 
   return (
-    <div className="min-h-screen w-full md:overflow-y-hidden overflow-auto flex flex-col items-center justify-center">
+    <div className="min-h-screen w-full md:overflow-x-hidden overflow-auto flex flex-col items-center justify-center">
 
     <Head>
         <title>PMTR NFTs - Minting Page</title>
@@ -348,10 +348,9 @@ useEffect(() => {
 
       <div className="w-screen h-auto flex md:flex-row flex-col items-start md:items-center justify-between">
           <img src = '/logo.png' className="w-[100px] h-[135px] ml-12 mb-4"/>
-          <div className="flex flex-row justify-between items-center">
-          <h1 className="text-[22px] font-Kanit text-blue-400">Nichel MOLIAE</h1>
-          <img src = '/Nichel Anderson2 .png' className="w-[150px] h-auto mr-12"/>    
-          </div>
+          
+          <img src = '/NichelMOLIAEsignature.png' className="w-[100px] h-auto mr-12 mb-4"/>    
+          
         </div>
 
       </div>
