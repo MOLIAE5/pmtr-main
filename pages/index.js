@@ -160,9 +160,9 @@ useEffect(() => {
       
 
       <div className="relative flex flex-col items-center md:py-4 md:px-4 w-full h-screen">
-        <div className="w-screen h-auto flex flex-col items-end">
+        {/* <div className="w-screen h-auto flex flex-col items-end">
           <a href="https://moliaeworld.com"><img src = '/icon.png' className="w-[150px] h-[100px] mr-12"/></a>
-        </div>
+        </div> */}
 
       <div className='flex flex-col items-center md:flex-row md:justify-between justify-between w-full h-auto'>
       
@@ -181,6 +181,7 @@ useEffect(() => {
           <div className="flex flex-col items-center w-full py-4 mt-6 md:mt-0 md:px-16 px-4">
           
           <div className='pb-4  flex flex-col items-center'>
+          <a href="https://moliaeworld.com"><img src = '/icon.png' className="w-[160px] h-[100px] mb-4"/></a>
             <h1 className="font-Kanit uppercase font-bold text-4xl md:text-4xl text-brand-green bg-clip-text mt-0 tracking-widest text-center">
             Moliae
             </h1>
