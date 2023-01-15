@@ -407,7 +407,7 @@ useEffect(() => {
                                 <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf' className='font-bold underline text-black'>Reveal the mystery -PMTR decode Astrology and Numerology</a>
                                 </h1>):(<h1></h1>)
                               }</div>
-                                <ValidationError errors={state.errors} />
+                               <ValidationError errors={state.errors} />
                             </div>
                         </form>
             </div>
