@@ -357,9 +357,9 @@ useEffect(() => {
           {/* <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf'><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a> */}
           
             {/* formspree from for collect email */}
-            <div className="w-auto h-auto bg-white rounded-md flex">
-            <form onSubmit={handleSubmit}>
-                            <div class="mb-6">
+            <div className="w-auto h-auto bg-white rounded-md flex p-2">
+            <form onSubmit={handleSubmit} className='flex items-center justify-between'>
+                            <div class="mx-2">
                                 <input
                                     type="email"
                                     placeholder="Your Email"
@@ -381,14 +381,14 @@ useEffect(() => {
                                     />
                                     <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
-                            <div>
+                            <div className='flex flex-col w-full'>
                                 <button
                                     type="submit"
                                     class="
                                     w-full
                                     text-gray-100
                                     hover:text-gray-700
-                                    bg-gradient-to-r from-pink-500 via-red-600 to-red-800 hover:bg-gradient-to-bl
+                                    bg-gradient-to-r from-green-400 via-green-500 to-green-900 hover:bg-gradient-to-bl
                                     rounded
                                     border border-primary
                                     dark:border-slate-600
