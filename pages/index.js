@@ -364,7 +364,8 @@ useEffect(() => {
                                     type="email"
                                     placeholder="Your Email"
                                     class="
-                                    w-full
+                                    md:w-[400px]
+                                    w-auto
                                     rounded
                                     p-3
                                     text-gray-800
@@ -381,7 +382,7 @@ useEffect(() => {
                                     />
                                     <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
-                            <div className='flex flex-col w-full'>
+                            <div className='flex flex-col w-full font-Kanit'>
                                 <button
                                     type="submit"
                                     class="
@@ -401,9 +402,9 @@ useEffect(() => {
                                     >
                                 Submit and Download
                                 </button>
-                                <div className="my-2 text-sm text-gray-400">{state.succeeded ? 
-                                (<h1>Thanks for your submission!
-                                <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf'>Reveal the mystery -PMTR decode Astrology and Numerology</a>
+                                <div className="mt-2 text-sm text-green-400">{state.succeeded ? 
+                                (<h1 className='text-sm font-medium font-Kanit'>Thanks for your submission!
+                                <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf' className='font-bold underline text-black'>Reveal the mystery -PMTR decode Astrology and Numerology</a>
                                 </h1>):(<h1></h1>)
                               }</div>
                                 <ValidationError errors={state.errors} />
