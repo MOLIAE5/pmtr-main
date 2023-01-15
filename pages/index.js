@@ -359,7 +359,7 @@ useEffect(() => {
             {/* formspree from for collect email */}
             <div className="w-auto h-auto bg-white rounded-md flex p-2">
             <form onSubmit={handleSubmit} className='flex items-center justify-between'>
-                            <div class="mx-2">
+                            <div class="mx-[9px]">
                                 <input
                                     type="email"
                                     placeholder="Your Email"
