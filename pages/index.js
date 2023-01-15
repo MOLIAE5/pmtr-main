@@ -14,9 +14,12 @@ import {  getTotalMinted,
           airdrop, 
           getMaxperWallet
                           } from "../ulits/interact";
+import { useForm, ValidationError } from "@formspree/react";
 
 
 export default function Home () {
+
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
 
   const [maxSupply, setMaxSupply] = useState(0)
   const [totalMinted, setTotalMinted] = useState(0)
@@ -351,8 +354,63 @@ useEffect(() => {
           <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[150px] h-auto ml-12 mb-4"/></a>
           
           {/* change the link down below to the pdf link */}
-          <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf'><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a>
+          {/* <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf'><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a> */}
           
+            {/* formspree from for collect email */}
+            <div className="w-auto h-auto bg-white rounded-md flex">
+            <form onSubmit={handleSubmit}>
+                            <div class="mb-6">
+                                <input
+                                    type="email"
+                                    placeholder="Your Email"
+                                    class="
+                                    w-full
+                                    rounded
+                                    p-3
+                                    text-gray-800
+                                    dark:text-gray-50
+                                    dark:bg-slate-700
+                                    border-gray-500
+                                    dark:border-slate-600
+                                    outline-none
+                                    focus-visible:shadow-none
+                                    focus:border-primary
+                                    "
+                                    name="email"
+                                    id="email"
+                                    />
+                                    <ValidationError prefix="Email" field="email" errors={state.errors} />
+                            </div>
+                            <div>
+                                <button
+                                    type="submit"
+                                    class="
+                                    w-full
+                                    text-gray-100
+                                    hover:text-gray-700
+                                    bg-gradient-to-r from-pink-500 via-red-600 to-red-800 hover:bg-gradient-to-bl
+                                    rounded
+                                    border border-primary
+                                    dark:border-slate-600
+                                    p-3
+                                    transition
+                                    ease-in-out
+                                    duration-500
+                                    "
+                                    disabled={state.submitting}
+                                    >
+                                Submit and Download
+                                </button>
+                                <div className="my-2 text-sm text-gray-400">{state.succeeded ? 
+                                (<h1>Thanks for your submission!
+                                <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf'>Reveal the mystery -PMTR decode Astrology and Numerology</a>
+                                </h1>):(<h1></h1>)
+                              }</div>
+                                <ValidationError errors={state.errors} />
+                            </div>
+                        </form>
+            </div>
+
           <img src = '/NichelMOLIAEsignature.png' className="w-[150px] h-auto mr-12 mb-4"/>    
           
         </div>
