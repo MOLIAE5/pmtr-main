@@ -402,8 +402,8 @@ useEffect(() => {
                                     >
                                 Submit and Download
                                 </button>
-                                <div className="mt-2 text-sm text-green-400">{state.succeeded ? 
-                                (<h1 className='text-sm font-medium font-Kanit'>Thanks for your submission!
+                                <div className="mt-2 text-sm text-green-700">{state.succeeded ? 
+                                (<h1 className='text-sm font-medium font-Kanit'>Thanks for your submission!<br/>
                                 <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf' className='font-bold underline text-black'>Reveal the mystery -PMTR decode Astrology and Numerology</a>
                                 </h1>):(<h1></h1>)
                               }</div>
