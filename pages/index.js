@@ -397,6 +397,7 @@ useEffect(() => {
                                     transition
                                     ease-in-out
                                     duration-500
+                                    mb-[-1px]
                                     "
                                     disabled={state.submitting}
                                     >
