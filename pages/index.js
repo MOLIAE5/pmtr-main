@@ -401,7 +401,7 @@ useEffect(() => {
                                     "
                                     disabled={state.submitting}
                                     >
-                                Submit and Download
+                                Submit and Download the Book
                                 </button>
                                 <div className="mt-2 text-sm text-green-700">{state.succeeded ? 
                                 (<h1 className='text-sm font-medium font-Kanit'>Thanks for your submission!<br/>
