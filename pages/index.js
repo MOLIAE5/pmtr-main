@@ -189,7 +189,7 @@ useEffect(() => {
             Moliae
             </h1>
           
-          <h1 className="font-Kanit uppercase font-bold text-[22px] md:text-4xl text-yellow-600 bg-clip-text mt-0 text-center">
+          <h1 className="font-Kanit uppercase font-bold text-[17px] md:text-4xl text-white bg-clip-text mt-0 text-center">
             PYRAMID MYSTERY TEMPLE REUNION
             </h1>
 
