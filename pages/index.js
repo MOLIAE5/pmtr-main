@@ -188,6 +188,10 @@ useEffect(() => {
             <h1 className="font-Kanit uppercase font-bold text-4xl md:text-4xl text-brand-green bg-clip-text mt-0 tracking-widest text-center">
             Moliae
             </h1>
+          
+          <h1 className="font-Kanit uppercase font-bold text-3xl md:text-4xl text-green-700 bg-clip-text mt-0 text-center">
+            PYRAMID MYSTERY TEMPLE REUNION
+            </h1>
 
             <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-3xl text-brand-02 bg-clip-text tracking-wider text-center mt-5">
             {paused ? 'Will be live soon..': isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' :'Will be live soon..' }
@@ -393,7 +397,7 @@ useEffect(() => {
                                     rounded
                                     border border-primary
                                     dark:border-slate-600
-                                    p-3
+                                    p-2
                                     transition
                                     ease-in-out
                                     duration-500
@@ -401,7 +405,7 @@ useEffect(() => {
                                     "
                                     disabled={state.submitting}
                                     >
-                                Submit and Download the Book
+                                Submit and Decode your PMTR NFT
                                 </button>
                                 <div className="mt-2 text-sm text-green-700">{state.succeeded ? 
                                 (<h1 className='text-sm font-medium font-Kanit'>Thanks for your submission!<br/>
