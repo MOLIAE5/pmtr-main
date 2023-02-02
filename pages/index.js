@@ -41,8 +41,8 @@ export default function Home () {
   const [cost, setCost] = useState(0)
 
   useEffect(() => {
-    reactGA.initialize('G-ZH0SDK5GDJ')
-    reactGA.pageview('/')
+    reactGA.initialize('G-ZH0SDK5GDJ');
+    reactGA.pageview(window.location.pathname);
   },[])
 
 
