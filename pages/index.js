@@ -59,7 +59,16 @@ export default function Home () {
       setIsWlMint(isWlMint)
       setIsAirdroping(await isAirdropState())
 
-      // Global BigInt
+      
+      
+    }
+
+    init()
+  }, [])
+
+  useEffect(() => {
+    const init = async () => {
+
   
       setMaxMintAmount(
         isAirdroping? config.maxPerWalletAirdrop : isWLMint ? config.maxPerWalletWL : config.maxPerWallet
@@ -69,7 +78,10 @@ export default function Home () {
     }
 
     init()
-  }, [])
+  })
+
+  
+      // Global BigInt
   
   useEffect( () => {
     const onboardData = initOnboard( {
