@@ -40,11 +40,6 @@ export default function Home () {
 
   const [cost, setCost] = useState(0)
 
-  useEffect(() => {
-    reactGA.initialize('G-ZH0SDK5GDJ');
-    reactGA.pageview(window.location.pathname);
-  },[])
-
 
   useEffect(() => {
     const init = async () => {
@@ -68,6 +63,17 @@ export default function Home () {
 
   useEffect(() => {
     const init = async () => {
+
+      setMaxSupply(await getMaxSupply())
+
+      setTotalMinted(await getTotalMinted())
+      setNumberMinted (await getNumberMinted())
+
+      setPaused(await isPausedState())
+      setIsPublicSale(await isPublicSaleState())
+      const isWlMint = await isWlMintState()
+      setIsWlMint(isWlMint)
+      setIsAirdroping(await isAirdropState())
 
   
       setMaxMintAmount(
