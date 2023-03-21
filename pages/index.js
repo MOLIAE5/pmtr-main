@@ -41,25 +41,25 @@ export default function Home () {
   const [cost, setCost] = useState(0)
 
 
-  useEffect(() => {
-    const init = async () => {
-      setMaxSupply(await getMaxSupply())
+  // useEffect(() => {
+  //   const init = async () => {
+  //     setMaxSupply(await getMaxSupply())
 
-      setTotalMinted(await getTotalMinted())
-      setNumberMinted (await getNumberMinted())
+  //     setTotalMinted(await getTotalMinted())
+  //     setNumberMinted (await getNumberMinted())
 
-      setPaused(await isPausedState())
-      setIsPublicSale(await isPublicSaleState())
-      const isWlMint = await isWlMintState()
-      setIsWlMint(isWlMint)
-      setIsAirdroping(await isAirdropState())
+  //     setPaused(await isPausedState())
+  //     setIsPublicSale(await isPublicSaleState())
+  //     const isWlMint = await isWlMintState()
+  //     setIsWlMint(isWlMint)
+  //     setIsAirdroping(await isAirdropState())
 
       
       
-    }
+  //   }
 
-    init()
-  }, [])
+  //   init()
+  // }, [])
 
   useEffect(() => {
     const init = async () => {
@@ -220,7 +220,7 @@ useEffect(() => {
             </h1>
 
             <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-3xl text-brand-02 bg-clip-text tracking-wider text-center mt-5">
-            {paused ? 'Will be live soon..': isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' :'Minting is Live!' }
+            { isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' :'Minting is Live!' }
             </h1>
 
             <h3 className="text-sm text-gray-100 tracking-widest">
