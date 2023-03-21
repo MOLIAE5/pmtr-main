@@ -383,11 +383,10 @@ useEffect(() => {
       <div className="w-screen h-auto flex md:flex-row items-start md:items-center justify-between">
           <a href='https://moliaeworld.com'><img src = '/logo.png' className="w-[150px] h-auto ml-12 mb-4"/></a>
           
-          {/* change the link down below to the pdf link */}
-          {/* <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf'><h1 className="text-[22px] text-white tracking-wide hover:text-green-400 text-center font-medium ​">📖 Reveal the mystery -PMTR decode Astrology and Numerology 📖</h1></a> */}
+         
           
             {/* formspree from for collect email */}
-            <div className="w-auto h-auto bg-white rounded-md flex p-2">
+            <div className="md:w-auto w-full h-auto bg-white rounded-md flex p-2 md:mt-0 mt-4">
             <form onSubmit={handleSubmit} className='flex items-center justify-between'>
                             <div class="mt-[8px] mb-[8px] mx-2">
                                 <input
@@ -435,6 +434,7 @@ useEffect(() => {
                                 </button>
                                 <div className="mt-2 text-sm text-green-700">{state.succeeded ? 
                                 (<h1 className='text-sm font-medium font-Kanit'>Thanks for your submission!<br/>
+                                 {/* change the link down below to the pdf link */}
                                 <a href="/Decoded PMTR NFTs Astrology and Numerology Book.pdf" download='/Decoded PMTR NFTs Astrology and Numerology Book.pdf' className='font-bold underline text-black'>Reveal the mystery -PMTR decode Astrology and Numerology</a>
                                 </h1>):(<h1 className='hidden'></h1>)
                               }</div>

@@ -37,3 +37,7 @@ html{
   background:var(--clr-selection-bg);
   color:var(--clr-selection-text);
 }
+
+body{
+  overflow-x: hidden;
+}
