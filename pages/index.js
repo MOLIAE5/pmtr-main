@@ -395,7 +395,7 @@ useEffect(() => {
                                     class="
                                     md:w-[400px]
                                     w-auto
-                                    rounded
+                                    rounded 
                                     p-3
                                     text-gray-800
                                     dark:text-gray-50
