@@ -220,7 +220,7 @@ useEffect(() => {
             </h1>
 
             <h1 className="font-Kanit uppercase font-semibold text-3xl md:text-3xl text-brand-02 bg-clip-text tracking-wider text-center mt-5">
-            { isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' : 'Airdrops now Live!' }
+            { isAirdroping? 'Airdrop is Live!': isWLMint ? 'Whitelisted sale' : isPublicSale?'Public Sale' : 'Public Sale' }
             </h1>
 
             <h3 className="text-sm text-gray-100 tracking-widest">
